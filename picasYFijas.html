@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Picas y fijas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="picasYFijas.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  </head>
+
+  <body>
+    <span>Picas y Fijas</span>
+    <div class="game">
+
+      <div class="tries" id="tries"></div>
+
+      <div class="numbersPanel">
+
+          <div class="panel">
+            <textarea id="input" rows="1" cols="4" maxlength="4" placeholder="0000"></textarea>
+          </div>
+
+          <div class="keywords">
+            <button id="7" class="buttonNumber" style="margin-top: 0px">7</button>
+            <button id="8" class="buttonNumber" style="margin-top: 0px">8</button>
+            <button id="9" class="buttonNumber" style="margin-right: 0px; margin-top: 0px">9</button>
+            <button id="4" class="buttonNumber">4</button>
+            <button id="5" class="buttonNumber">5</button>
+            <button id="6" class="buttonNumber" style="margin-right: 0px;">6</button>
+            <button id="1" class="buttonNumber">1</button>
+            <button id="2" class="buttonNumber">2</button>
+            <button id="3" class="buttonNumber" style="margin-right: 0px;">3</button>
+            <button id="del" class="buttonNumber" style="margin-right: 30px;"><img src="https://png.icons8.com/metro/26/ffffff/circled-left-2.png"></button>
+            <button id="0" class="buttonNumber" style="margin-right: 30px;">0</button>
+            <button id="enter" class="buttonNumber" style="margin-right: 0px;"><img src="https://png.icons8.com/metro/26/ffffff/enter-2.png"></button>
+          </div>
+      </div>
+
+      <div class="menu">
+        <textarea readonly id="instructions">Presiona el boton "Jugar!" para comenzar.</textarea>
+        <button id="play">Jugar!</button>
+      </div>
+    </div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./js/constants.js"></script>
+  <script src="./js/picasYFijas.js"></script>
+  <script src="./js/main.js"></script>
+
+</html>

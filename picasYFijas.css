@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+  height: 1100px;
+}
+span {
+  position: absolute;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #B22222;
+  font-size: 350%;
+  margin-top: 30px;
+  left: 36%;
+}
+
+.game {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: gray;
+  margin-top: 30px;
+  top: 150px;
+  left: 20%;
+  height: 800px;
+  width: 800px;
+}
+
+.numbersPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black;
+  left: : 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 555px;
+  width: 400px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.keywords {
+  position: relative;
+  height: 400px;
+  width: 310px;
+  margin-top: 40px;
+}
+
+.tries {
+  background-color: #888888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  height: 555px;
+  width: 300px;
+}
+
+.trie {
+  margin-top: 22px;
+  height: 30px;
+  width: 250px;
+}
+
+.trie span {
+  position: static;
+  font-size: medium;
+  color: black;
+}
+
+.trie textarea {
+  position: relative;
+  margin-right: 30px;
+  left: 12px;
+  top: 7px;
+  height: 25px;
+  background-color: black;
+  width: 60px;
+  display: inline;
+  resize: none;
+  font-family: 'Segment7Standard';
+  color: red;
+  font-size: 140%;
+}
+
+.menu {
+  position: relative;
+  height:140px;
+  width: 800px;
+  margin: -30px 20px 0px 20px;
+}
+
+.menu button {
+  background-color: #4CAF50;
+  float: right;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+
+.menu textarea {
+    height: 135px;
+    width: 550px;
+    background-color: #888888;
+    resize: none;
+  }
+
+.buttonNumber {
+  padding: 18px 28px;
+  margin-right: 40px;
+  margin-top: 40px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #32CD32	;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 9px #999;
+}
+
+.buttonNumber_active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonNumber:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.panel {
+  margin-top: 40px;
+  width: 160px;
+  height: 60px;
+}
+
+.panel textarea {
+  resize: none;
+  position: relative;
+  background: black;
+  font-family: 'Segment7Standard';
+  color: red;
+  font-size: 350%;
+}
