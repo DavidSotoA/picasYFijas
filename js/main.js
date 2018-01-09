@@ -2,6 +2,7 @@ $(document).ready(function() {
   insertTries();
 
   $("#play").click(function() {
+    console.log(2)
       num = createRandomNumber();
       trie=1
       $("#play").text("Reiniciar");
@@ -24,7 +25,7 @@ $(document).ready(function() {
     if (validators.inputValidator(data, id)) pushButton(data, id);
     if (id == "-40") dropButtonn(data);
     if (id == "-35" && num != null) onEnterKey(data)
-    return false;
+    return true;
 
   });
 });

@@ -1,24 +1,25 @@
 body {
   background-color: black;
   height: 1100px;
+  text-align: center;
 }
+
 span {
-  position: absolute;
   font-family: 'Gloria Hallelujah', cursive;
   color: #B22222;
   font-size: 350%;
   margin-top: 30px;
-  left: 36%;
+
 }
 
 .game {
-  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
   display: flex;
   flex-wrap: wrap;
   background-color: gray;
   margin-top: 30px;
-  top: 150px;
-  left: 20%;
   height: 800px;
   width: 800px;
 }
@@ -72,7 +73,6 @@ span {
   margin-right: 30px;
   left: 12px;
   top: 7px;
-  height: 25px;
   background-color: black;
   width: 60px;
   display: inline;
